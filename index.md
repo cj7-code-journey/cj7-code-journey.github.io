@@ -8,7 +8,7 @@ title: Home
     <p>
         I'm a software engineer, AI enthusiast, and student. I love building things from scratch and writing about full-stack web development, AI, and my coding journey! 
     </p>
-    <div>
+    <div class="hero-links">
         <a href="/about.html">👤 About Me</a>
         <a href="/projects.html">💻 Projects</a>
     </div>
@@ -31,7 +31,7 @@ title: Home
 ---
 <div class="projects-section">
     <h2>💻 Featured Projects</h2>
-    <div>
+    <div class="project-wrapper">
         <a href="" target="_blank" class="project-card">
             <h3>📘 Try Jekyll</h3>
             <p>A custom developer blog built entirely from scratch without pre-made themes.</p>

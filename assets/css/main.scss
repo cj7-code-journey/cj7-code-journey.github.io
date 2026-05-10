@@ -7,6 +7,7 @@
     --text-heading: #ffffff;     /* Pure white for headings */
     --accent-color: #9d82f5;     /* Premium Purple link color */
     --sidebar-width: 200px;
+    --normal-font-size: 18px;
     --border-color: #2c2f40;
 }
 
@@ -55,5 +56,21 @@ header{
 //Main Content index.md
 
 //hero section
+.hero-section, .posts-section, .projects-section{
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: var(--normal-font-size);
+}
+
+.hero-links, .post-item, .project-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+//blog page
+
 
 
