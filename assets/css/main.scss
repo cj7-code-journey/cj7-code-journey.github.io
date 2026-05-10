@@ -1,36 +1,42 @@
+--- 
 ---
----
-
 :root {
-    --bg-color: #161822;         /* Dark Theme Background */
-    --text-main: #a9a9b3;        /* Light grey text for paragraphs */
-    --text-heading: #ffffff;     /* Pure white for headings */
-    --accent-color: #9d82f5;     /* Premium Purple link color */
+    --bg-color: #161822;
+    /* Dark Theme Background */
+    --text-main: #a9a9b3;
+    /* Light grey text for paragraphs */
+    --text-heading: #ffffff;
+    /* Pure white for headings */
+    --accent-color: #9d82f5;
+    /* Premium Purple link color */
     --sidebar-width: 200px;
     --normal-font-size: 18px;
     --border-color: #2c2f40;
 }
 
 //reset
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 //header
-header{
+header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin: 5px;
 }
+
 //wrapper->sidebar + Main content
-.layout-wrapper{
+.layout-wrapper {
     display: flex;
     gap: 20px;
 }
+
 //sidebar with navbar
-.sidebar{
+.sidebar {
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -38,25 +44,27 @@ header{
     min-width: 200px;
     width: var(--sidebar-width);
     height: 100vh;
-    border:2px solid darkslategray;
+    border: 2px solid darkslategray;
     padding: 20px;
     margin: 5px;
 }
 
-.sidebar a{
+.sidebar a {
     text-decoration: none;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     flex-direction: column;
-    gap:40px;
+    gap: 40px;
 }
 
 //Main Content index.md
 
 //hero section
-.hero-section, .posts-section, .projects-section{
+.hero-section,
+.posts-section,
+.projects-section {
     margin: 20px 0;
     padding: 20px;
     display: flex;
@@ -65,12 +73,87 @@ header{
     font-size: var(--normal-font-size);
 }
 
-.hero-links, .post-item, .project-wrapper{
+.hero-links,
+.post-item,
+.project-wrapper {
     display: flex;
     gap: 20px;
 }
 
 //blog page
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: var(--normal-font-size);
+}
 
+.post-item {
+    margin-bottom: 15px;
+}
 
+.post-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.post-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.post-body {
+    border: 2px dashed black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.post-body code {
+    background-color: #242736;
+    color: #ff7b72;
+    /* Light red/pink for inline code */
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+.post-body pre {
+    background-color: #1c1e2b;
+    border: 1px solid var(--border-color);
+    margin: 6px 0;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.post-body pre code {
+    background-color: transparent;
+    color: #e6edf3;
+    padding: 0;
+}
+
+.post-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+}
+
+.back-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgba(157, 130, 245, 0.1);
+    color: var(--accent-color);
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.back-link:hover {
+    background-color: rgba(157, 130, 245, 0.2);
+    text-decoration: none;
+}
+
+//projects page
