@@ -1,8 +1,29 @@
 ---
 ---
 
+:root {
+    --bg-color: #161822;         /* Dark Theme Background */
+    --text-main: #a9a9b3;        /* Light grey text for paragraphs */
+    --text-heading: #ffffff;     /* Pure white for headings */
+    --accent-color: #9d82f5;     /* Premium Purple link color */
+    --sidebar-width: 260px;
+    --border-color: #2c2f40;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.layout-wrapper{
+    display: flex;
+    
+}
+.sidebar{
+    width: var(--sidebar-width);
+    height: 100vh;
+    border:2px solid darkslategray;
+    padding: 20px;
+    margin: 5px;
 }
