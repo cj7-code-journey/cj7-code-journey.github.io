@@ -6,39 +6,54 @@
     --text-main: #a9a9b3;        /* Light grey text for paragraphs */
     --text-heading: #ffffff;     /* Pure white for headings */
     --accent-color: #9d82f5;     /* Premium Purple link color */
-    --sidebar-width: 260px;
+    --sidebar-width: 200px;
     --border-color: #2c2f40;
 }
 
-
+//reset
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+//header
 header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin: 5px;
 }
+//wrapper->sidebar + Main content
 .layout-wrapper{
     display: flex;
     gap: 20px;
 }
+//sidebar with navbar
 .sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    min-width: 200px;
     width: var(--sidebar-width);
     height: 100vh;
     border:2px solid darkslategray;
     padding: 20px;
     margin: 5px;
 }
+
 .sidebar a{
     text-decoration: none;
 }
+
 .nav-links{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin: 10px 0;
+    gap:40px;
 }
+
+//Main Content index.md
+
+//hero section
+
+
