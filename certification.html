@@ -8,3 +8,39 @@ comming soon...
 
 <h1 class="page-title">Certifications</h1>
 <p class="page-subtitle">A list of certifications I've been on certified on various skills.</p>
+
+<div class="certifications-grid" style="border: 1px solid black;">
+    {% for certification in site.data.certifications-data %}
+    <div class="certification-card" style="width:300px;border: 1px solid black;">
+        <img src="{{certification.img-url}}" style="width: 300px;" alt="{{ certification.title }}" title="{{ certification.title }}">
+        <h3>{{ certification.title }}</h3>
+        <h3>{{ certification.organization }}</h3>
+        <p>{{ certification.description }}</p>
+
+        {% if certification.stack %}
+        <div class="certification-stack">
+            {% for tech in certification.stack %}
+            <span>
+                {{ tech }}
+            </span>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="certification-links">
+            {% if certification.verify-url and certification.verify-url != "" %}
+            <a href="{{ certification.verify-url }}" target="_blank">
+                <span>🐙</span> Verify
+            </a>
+            {% endif %}
+
+            {% if certification.view and certification.view != "" %}
+            <a href="{{ certification.view }}" target="_blank">
+                <span>🌍</span>View
+            </a>
+            {% endif %}
+
+        </div>
+    </div>
+    {% endfor %}
+</div>

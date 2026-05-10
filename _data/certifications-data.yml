@@ -1,0 +1,8 @@
+- title: "Certificate Title"
+  organization: "IBM"
+  description: "desc. goes here"
+  img-url: "/assets/images/certification-images/demo-certificate-pic.jpg"
+  stack: ["#HTML", "#CSS", "#Bootstrap", "#JavaScript", "#Responsive Design", "#GitHub Pages"]
+  verify-url: "/"
+  view: "/"
+  target: "_blank"
