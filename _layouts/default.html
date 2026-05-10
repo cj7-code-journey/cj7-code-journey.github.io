@@ -9,20 +9,14 @@
 </head>
 
 <body>
+  {% include header.html %}
   <div class="layout-wrapper">
-    <aside class="sidebar">
-      <h1> <a href="/">&lt;cj7&gt;</a> </h1>
-      <nav class="nav-links">
-        <a href="/blog.html" class="nav-item">📂 Blog</a>
-        <a href="/projects.html" class="nav-item">💻 Projects</a>
-        <a href="/certifications.html" class="nav-item">🎓 Certifications</a>
-        <a href="/about.html" class="nav-item">👨‍💼 About Me</a>
-      </nav>
-    </aside>
+    {% include navbar.html %}
     <main class="content">
       {{ content }}
     </main>
   </div>
+  {% include footer.html %}
 </body>
 
 </html>
