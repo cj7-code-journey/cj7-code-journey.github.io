@@ -1,0 +1,7 @@
+- title: "🔐 CyberAware WEBSITE"
+  description: "A cybersecurity awareness website designed to educate users about online threats and best practices for staying safe in the digital world."
+  img-url: "/assets/images/projects-images/demo-project-pic.png"
+  stack: ["#HTML", "#CSS", "#Bootstrap", "#JavaScript", "#Responsive Design", "#GitHub Pages"]
+  repo-url: "https://github.com/cj7-code-journey/CyberAware"
+  live-url: "https://cj7-code-journey.github.io/CyberAware/"
+  target: "_blank"
