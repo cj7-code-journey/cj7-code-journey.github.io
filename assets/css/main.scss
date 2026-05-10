@@ -16,9 +16,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px;
+}
 .layout-wrapper{
     display: flex;
-
+    gap: 20px;
 }
 .sidebar{
     width: var(--sidebar-width);
