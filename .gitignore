@@ -1,0 +1,17 @@
+# Jekyll
+_site/
+
+# Jekyll
+.jekyll-cache/
+.jekyll-metadata
+
+
+.bundle/
+vendor/
+
+# Sass 
+.sass-cache/
+
+# (Mac/Windows)
+.DS_Store
+thumbs.db
