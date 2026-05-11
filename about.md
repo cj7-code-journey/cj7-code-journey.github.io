@@ -5,12 +5,14 @@ permalink: /about.html
 ---
 
 <h1 class="page-title">💾 About Me</h1>
-<img src="/assets/images/profile-pic.png" alt="Ashok Kumar" style="width: 250px; height: 280px;border:5px dashed #4b545d">
 
-Hi, I'm **Ashok Kumar**, a software developer and tech enthusiast. Welcome to my digital space! 🌱
+<img class="profile-pic" src="/assets/images/profile-pic.png" alt="Ashok Kumar">
+
+Hi, I'm **Ashok Kumar**, a Frontend developer and tech enthusiast. Welcome to my digital space! 🌱
 
 I enjoy building things from scratch and solving real-world problems. My journey in tech spans across full-stack web development, AI applications, and exploring core computer concepts. I believe in writing clean code and constantly learning new technologies.
 
+<div style="clear: both;"></div>
 
 ### 🎓 Background & Education
 
@@ -30,4 +32,4 @@ Whether it's discussing a cool new AI project, web development, or just a casual
 
 ---
 
-_When I'm not coding, you might find me exploring Internet, Workout, Mobile Games, Reading articles and Overthinking_
+_When I'm not coding, you might find me exploring Internet, Workout, Mobile Games and Reading articles_

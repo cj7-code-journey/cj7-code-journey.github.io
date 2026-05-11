@@ -1,5 +1,6 @@
 --- 
 ---
+
 :root {
     --bg-color: #ffffff;
     /* Dark Theme Background */
@@ -16,8 +17,6 @@
 
 //reset
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -170,13 +169,15 @@ header {
     border-bottom: 1px solid var(--border-color);
 }
 
-.projects-grid, .certifications-grid {
+.projects-grid,
+.certifications-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(245px, 2fr));
     gap: 20px;
 }
 
-.project-card, .certification-card {
+.project-card,
+.certification-card {
     background-color: rgba(255, 255, 255, 0.02);
     border: 2px solid var(--border-color);
     border-radius: 8px;
@@ -186,46 +187,88 @@ header {
     transition: transform 0.2s, background-color 0.2s;
 }
 
-.project-card img,.certification-card img {
+.project-card img,
+.certification-card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-.project-card h3, .certification-card h3 {
+.project-card h3,
+.certification-card h3 {
     color: var(--text-heading);
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 1.25rem;
 }
 
-.project-card p, .certification-card p {
+.project-card p,
+.certification-card p {
     margin: 0;
     font-size: 0.95rem;
 }
 
-.project-card:hover , .certification-card:hover {
+.project-card:hover,
+.certification-card:hover {
     transform: translateY(-3px);
     background-color: rgba(255, 255, 255, 0.05);
     border-color: rgba(23, 2, 94, 0.5);
     text-decoration: none;
 }
-.project-stack, .certification-stack{
-margin-top: 15px; margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 8px;
-}
-.project-stack span, .certification-stack span{
-    background: rgba(255, 255, 255, 0.05); color: var(--text-main); font-size: 0.8rem; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border-color); font-weight: 500;
+
+.project-stack,
+.certification-stack {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
-.project-links, .certification-links{
-    margin-top: auto; display: flex; gap: 10px;
+.project-stack span,
+.certification-stack span {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-main);
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    font-weight: 500;
 }
-.project-links a, .certification-links a{
-    padding: 6px 12px; background: rgba(255,255,255,0.05); color: var(--text-heading); border: 1px solid var(--border-color); border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: 0.2s;
+
+.project-links,
+.certification-links {
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
 }
-.project-links span, .certification-links span{
+
+.project-links a,
+.certification-links a {
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-heading);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: 0.2s;
+}
+
+.project-links span,
+.certification-links span {
     margin-right: 5px;
 }
 
+//about page
+.profile-pic {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+    border: 5px dashed #4b545d
+}
 
