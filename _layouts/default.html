@@ -16,11 +16,18 @@
   <link rel="icon" type="image/ico" href="{{ site.baseurl }}/assets/images/favicon.ico">
 </head>
 
-<body>
+<body id="lightMode">
+   <script>
+    //check theme before the page render
+    if (localStorage.getItem("theme") === "dark") {
+      document.body.classList.add("dark-theme");
+    }
+  </script>
+
   {% include header.html %}
   <div class="layout-wrapper">
     
-        <!-- Hamburger Button -->
+    <!-- Hamburger Button -->
     <button id="menuBtn" style="font-size: 30px; background: none; border: none; color: var(--text-heading); cursor: pointer;">
       &#9776; 
     </button>
@@ -32,6 +39,7 @@
   </div>
   {% include footer.html %}
 </body>
+
 <script>
   const menuBtn = document.getElementById('menuBtn');
   const sidebar = document.querySelector('.sidebar');
@@ -39,5 +47,26 @@
   menuBtn.addEventListener('click', () => {
     sidebar.classList.toggle('active');
   });
+
+//change theme
+function changeTheme() {
+    const body = document.body;
+    
+
+    body.classList.toggle("dark-theme");
+
+
+    if (body.classList.contains("dark-theme")) {
+        localStorage.setItem("theme", "dark");
+    } else {
+        localStorage.setItem("theme", "light");
+    }
+}
+window.onload = function() {
+    if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-theme");
+    }
+}
+
 </script>
 </html>
