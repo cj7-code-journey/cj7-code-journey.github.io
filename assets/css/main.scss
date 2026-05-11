@@ -156,7 +156,7 @@ header {
     text-decoration: none;
 }
 
-//projects page
+//projects page && certifications page
 .page-title {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -170,13 +170,13 @@ header {
     border-bottom: 1px solid var(--border-color);
 }
 
-.projects-grid {
+.projects-grid, .certifications-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(245px, 2fr));
     gap: 20px;
 }
 
-.project-card {
+.project-card, .certification-card {
     background-color: rgba(255, 255, 255, 0.02);
     border: 2px solid var(--border-color);
     border-radius: 8px;
@@ -186,47 +186,46 @@ header {
     transition: transform 0.2s, background-color 0.2s;
 }
 
-.project-card img {
+.project-card img,.certification-card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-.project-card h3 {
+.project-card h3, .certification-card h3 {
     color: var(--text-heading);
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 1.25rem;
 }
 
-.project-card p {
+.project-card p, .certification-card p {
     margin: 0;
     font-size: 0.95rem;
 }
 
-.project-card:hover {
+.project-card:hover , .certification-card:hover {
     transform: translateY(-3px);
     background-color: rgba(255, 255, 255, 0.05);
     border-color: rgba(23, 2, 94, 0.5);
     text-decoration: none;
 }
-.project-stack{
+.project-stack, .certification-stack{
 margin-top: 15px; margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 8px;
 }
-.project-stack span{
+.project-stack span, .certification-stack span{
     background: rgba(255, 255, 255, 0.05); color: var(--text-main); font-size: 0.8rem; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border-color); font-weight: 500;
 }
 
-.project-links{
+.project-links, .certification-links{
     margin-top: auto; display: flex; gap: 10px;
 }
-.project-links a{
+.project-links a, .certification-links a{
     padding: 6px 12px; background: rgba(255,255,255,0.05); color: var(--text-heading); border: 1px solid var(--border-color); border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: 0.2s;
 }
-.project-link span{
+.project-links span, .certification-links span{
     margin-right: 5px;
 }
 
-//certifications page
 

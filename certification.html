@@ -9,10 +9,10 @@ comming soon...
 <h1 class="page-title">Certifications</h1>
 <p class="page-subtitle">A list of certifications I've been on certified on various skills.</p>
 
-<div class="certifications-grid" style="border: 1px solid black;">
+<div class="certifications-grid">
     {% for certification in site.data.certifications-data %}
-    <div class="certification-card" style="width:300px;border: 1px solid black;">
-        <img src="{{certification.img-url}}" style="width: 300px;" alt="{{ certification.title }}" title="{{ certification.title }}">
+    <div class="certification-card">
+        <img src="{{certification.img-url}}" alt="{{ certification.title }}" title="{{ certification.title }}">
         <h3>{{ certification.title }}</h3>
         <h3>{{ certification.organization }}</h3>
         <p>{{ certification.description }}</p>
