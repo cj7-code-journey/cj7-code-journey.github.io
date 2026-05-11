@@ -6,11 +6,24 @@
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <link rel="stylesheet" href="/assets/css/post.css">
+  <link rel="stylesheet" href="/assets/css/project.css">
+  <link rel="stylesheet" href="/assets/css/certificate.css">
+  <link rel="stylesheet" href="/assets/css/about.css">
+  <link rel="stylesheet" href="/assets/css/header-footer.css">
+  <link rel="stylesheet" href="/assets/css/sidebar.css">
 </head>
 
 <body>
   {% include header.html %}
   <div class="layout-wrapper">
+    
+        <!-- Hamburger Button -->
+    <button id="menuBtn" style="font-size: 30px; background: none; border: none; color: var(--text-heading); cursor: pointer;">
+      &#9776; 
+    </button>
+
     {% include navbar.html %}
     <main class="content">
       {{ content }}
@@ -18,5 +31,12 @@
   </div>
   {% include footer.html %}
 </body>
+<script>
+  const menuBtn = document.getElementById('menuBtn');
+  const sidebar = document.querySelector('.sidebar');
 
+  menuBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+  });
+</script>
 </html>

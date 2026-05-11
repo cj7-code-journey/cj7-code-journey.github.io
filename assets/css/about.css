@@ -1,0 +1,9 @@
+.profile-pic {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+    border: 5px dashed #4b545d
+}

@@ -1,0 +1,45 @@
+/* Sidebar Styling*/
+.sidebar {
+    width: var(--sidebar-width);
+    padding: 20px;
+    border-right: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    transition: left 0.3s ease-in-out;
+}
+
+
+.profile .avatar {
+    font-size: 1.2rem;
+    background-color: rgba(157, 130, 245, 0.1);
+    padding: 10px 15px;
+    color: var(--accent-color);
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.nav-item {
+    color: var(--text-heading);
+    padding: 2px 8px;
+    margin-left: -8px;
+}
+
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+
+    text-decoration: none;
+}

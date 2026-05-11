@@ -3,19 +3,22 @@ layout: default
 title: Home
 ---
 
-<div class="hero-section">
+<div class="hero-section" style="margin-bottom: 60px;">
     <h1>Hey, I'm Ashok! 👋</h1>
     <p>
-        I'm a software engineer, AI enthusiast, and student. I love building things from scratch and writing about full-stack web development, AI, and my coding journey! 
+        I'm a frontend developer, AI enthusiast, and student. I love building things from scratch and writing about
+        full-stack web development, AI, and my coding journey!
     </p>
-    <div class="hero-links">
-        <a href="/about.html">👤 About Me</a>
+
+    <div>
+        <a href="/about.html">👨‍💼 About Me</a>
         <a href="/projects.html">💻 Projects</a>
     </div>
 </div>
----
-<div class="posts-section">
+
+<div class="home-section">
     <h2>📝 Latest Posts</h2>
+
     <div class="latest-posts">
         {% for post in site.posts limit:5 %}
         <div class="post-item">
@@ -24,18 +27,22 @@ title: Home
         </div>
         {% endfor %}
     </div>
+
     <div>
         <a href="/blog.html">View all posts →</a>
     </div>
 </div>
----
-<div class="projects-section">
+<div class="home-section">
     <h2>💻 Featured Projects</h2>
-    <div class="project-wrapper">
+
+    <div class="projects-grid">
+
         <a href="" target="_blank" class="project-card">
             <h3>📘 Try Jekyll</h3>
-            <p>A custom developer blog built entirely from scratch without pre-made themes.</p>
+            <p">A custom developer blog built
+                entirely from scratch without pre-made themes.</p>
         </a>
+
         <a href="#" class="project-card">
             <h3>🤖 TableSense AI</h3>
             <p>A web application project built for extracting structured data from PDF tables.</p>
