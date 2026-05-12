@@ -5,6 +5,7 @@
     gap: 20px;
     background-color: var(--header-bg-color);
     color: var(--header-color);
+    padding: 8px;
 }
 
 
