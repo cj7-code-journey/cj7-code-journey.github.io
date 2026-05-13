@@ -13,7 +13,7 @@
 
 
 .profile .avatar {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     background-color: rgba(157, 130, 245, 0.1);
     padding: 10px 15px;
     color: var(--accent-color);

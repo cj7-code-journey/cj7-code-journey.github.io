@@ -67,6 +67,47 @@ window.onload = function() {
         document.body.classList.add("dark-theme");
     }
 }
+//
 
+document.addEventListener("DOMContentLoaded", function () {
+  const body = document.body;
+  const zoomInBtn = document.getElementById("zoom-in");
+  const zoomOutBtn = document.getElementById("zoom-out");
+  const zoomResetBtn = document.getElementById("zoom-reset");
+
+  // LocalStorage se saved zoom level get karein, default 100 rakhein
+  let currentZoom = localStorage.getItem("siteZoom") ? parseInt(localStorage.getItem("siteZoom")) : 100;
+  
+  // Page load hone par saved zoom level apply karein
+  body.style.fontSize = currentZoom + "%";
+
+  function applyZoom(zoomLevel) {
+      body.style.fontSize = zoomLevel + "%";
+      localStorage.setItem("siteZoom", zoomLevel); // Browser me save karein
+  }
+
+  // Zoom In Function
+  zoomInBtn.addEventListener("click", function () {
+    if (currentZoom < 140) { // Max zoom limit 140%
+      currentZoom += 10;
+      applyZoom(currentZoom);
+    }
+  });
+
+  // Zoom Out Function
+  zoomOutBtn.addEventListener("click", function () {
+    if (currentZoom > 80) { // Min zoom limit 80%
+      currentZoom -= 10;
+      applyZoom(currentZoom);
+    }
+  });
+
+  // Reset Function
+  zoomResetBtn.addEventListener("click", function () {
+    currentZoom = 100;
+    applyZoom(currentZoom);
+  });
+});
+//
 </script>
 </html>

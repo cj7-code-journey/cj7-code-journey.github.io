@@ -1,12 +1,12 @@
 /* --- certifications Page Styling --- */
 .page-title {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     margin-bottom: 10px;
 }
 
 .page-subtitle {
     color: var(--text-main);
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     margin-bottom: 40px;
     padding-bottom: 20px;
     border-bottom: 1px solid var(--border-color);
@@ -46,18 +46,18 @@
     color: var(--text-heading);
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
 }
 
 .certification-card p {
     margin: 0;
-    font-size: 0.95rem;
+    /* font-size: 0.95rem; */
 }
 
 .certification-card ul {
     margin-top: 15px;
     margin-bottom: 20px;
-    font-size: 0.95rem;
+    /* font-size: 0.95rem; */
 }
 
 .certification-card ul li {
@@ -76,7 +76,7 @@
 .certification-stack span {
     background: rgba(255, 255, 255, 0.05);
     color: var(--text-main);
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     padding: 4px 10px;
     border-radius: 20px;
     border: 1px solid var(--border-color);
@@ -96,7 +96,7 @@
     border: 1px solid var(--border-color);
     border-radius: 4px;
     text-decoration: none;
-    font-size: 0.85rem;
+    /* font-size: 0.85rem; */
     transition: 0.2s;
 }
 

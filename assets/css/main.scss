@@ -2,9 +2,9 @@
 ---
 /* CSS Variables */
 :root {
-    --bg-color: #ffffff;    
-    --header-bg-color: rgb(0, 0, 0);       
-    --header-color: rgb(255, 255, 255);     
+    --bg-color: whitesmoke;    
+    --header-bg-color: rgba(0, 0, 0, 0.4);
+    --header-color: rgb(255, 255, 255);
     --navbar-bg-color: rgb(40, 39, 39);   
     --navbar-color: rgb(255, 255, 255);   
     --text-main: rgb(35, 40, 40);        
@@ -12,12 +12,14 @@
     --accent-color: #264e9e;     
     --sidebar-width: 260px;
     --border-color: #2c2f40;
+
+
 }
 
 body.dark-theme {
     --bg-color: #161822;    
-    --header-bg-color: white;       
-    --header-color: rgb(0, 0, 0);   
+    --header-bg-color: rgba(255, 255, 255, 0.15);
+    --header-color: rgb(255, 255, 255);   
     --text-main: #a9a9b3;        
     --text-heading: #ffffff; 
     --accent-color: #9d82f5;

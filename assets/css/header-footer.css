@@ -6,7 +6,28 @@
     background-color: var(--header-bg-color);
     color: var(--header-color);
     padding: 8px;
+    position:sticky;
+    top: 0;
 }
+.zoom-controls {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.zoom-controls button {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.zoom-controls button:hover {
+  background: #f0f0f0;
+}
+
 
 
 footer{
