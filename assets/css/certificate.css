@@ -14,7 +14,7 @@
 
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(290px, 2fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
 }
 
@@ -54,17 +54,6 @@
     /* font-size: 0.95rem; */
 }
 
-.certification-card ul {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    /* font-size: 0.95rem; */
-}
-
-.certification-card ul li {
-    margin-bottom: 5px;
-}
-
-
 .certification-stack {
     margin-top: 15px;
     margin-bottom: 20px;
@@ -76,7 +65,7 @@
 .certification-stack span {
     background: rgba(255, 255, 255, 0.05);
     color: var(--text-main);
-    /* font-size: 0.8rem; */
+    font-size: 0.8rem;
     padding: 4px 10px;
     border-radius: 20px;
     border: 1px solid var(--border-color);
