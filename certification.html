@@ -11,10 +11,11 @@ permalink: /certifications.html
     {% for certification in site.data.certifications-data %}
     <div class="certification-card">
         <img src="{{certification.img-url}}" alt="{{ certification.title }}" title="{{ certification.title }}">
-        <h3>{{ certification.title }}</h3>
-        <h3>{{ certification.organization }}</h3>
+        <h2>{{ certification.title }}</h2>
+        <h3>{{ certification.subtitle }}</h3>
+        <h3>{{ certification.organization }} || <span>{{ certification.duration }}</span></h3>
+        
         <p>{{ certification.description }}</p>
-
         {% if certification.stack %}
         <div class="certification-stack">
             {% for tech in certification.stack %}
@@ -24,20 +25,20 @@ permalink: /certifications.html
             {% endfor %}
         </div>
         {% endif %}
-
+        
         <div class="certification-links">
             {% if certification.verify-url and certification.verify-url != "" %}
             <a href="{{ certification.verify-url }}" target="_blank">
-                <span>🐙</span> Verify
+                <span>✅</span>Verify
             </a>
             {% endif %}
-
+            
             {% if certification.view and certification.view != "" %}
             <a href="{{ certification.view }}" target="_blank">
-                <span>🌍</span>View
+                <span>🔍</span>View
             </a>
             {% endif %}
-
+            
         </div>
     </div>
     {% endfor %}

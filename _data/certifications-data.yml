@@ -1,8 +1,10 @@
-- title: "Certificate Title"
-  organization: "IBM"
+- title: "PBL Program:- Click Code Create"
+  subtitle: "Beginner's Guide to Front End Web Development"
+  organization: "CSRBOX"
   description: "desc. goes here"
-  img-url: "/assets/images/certification-images/demo-certificate-pic.jpg"
-  stack: ["#HTML", "#CSS", "#Bootstrap", "#JavaScript", "#Responsive Design", "#GitHub Pages"]
+  duration: "2 months"
+  img-url: "/assets/images/certification-images/PBL Certificate - Ashok Kumar.webp"
+  stack: ["#HTML", "#CSS", "#JavaScript", "#Responsive Design", "#GitHub Pages"]
   verify-url: "/"
   view: "/"
   target: "_blank"
