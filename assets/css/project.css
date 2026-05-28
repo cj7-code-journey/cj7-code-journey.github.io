@@ -27,6 +27,12 @@
     color: var(--text-main);
     transition: transform 0.2s, background-color 0.2s;
 }
+/* home page project cards style */
+.project-card a{
+    text-decoration: none;
+    color: var(--text-main);
+}
+
 
 /* Hover Effect*/
 .project-card:hover {
