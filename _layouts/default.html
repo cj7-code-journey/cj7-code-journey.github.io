@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="{{ site.lang | default: 'en-India' }}">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +17,8 @@
 </head>
 
 <body id="lightMode">
-   <script>
-    //check theme before the page render
+  <script>
+
     if (localStorage.getItem("theme") === "dark") {
       document.body.classList.add("dark-theme");
     }
@@ -26,10 +26,11 @@
 
   {% include header.html %}
   <div class="layout-wrapper">
-    
+
     <!-- Hamburger Button -->
-    <button id="menuBtn" style="font-size: 30px; background: none; border: none; color: var(--text-heading); cursor: pointer;">
-      &#9776; 
+    <button id="menuBtn"
+      style="font-size: 30px; background: none; border: none; color: var(--text-heading); cursor: pointer;">
+      &#9776;
     </button>
 
     {% include navbar.html %}
@@ -48,66 +49,71 @@
     sidebar.classList.toggle('active');
   });
 
-//change theme
-function changeTheme() {
+  function closeNav() {
+    sidebar.classList.toggle('active');
+}
+
+  //change theme
+  function changeTheme() {
     const body = document.body;
-    
+
 
     body.classList.toggle("dark-theme");
 
 
     if (body.classList.contains("dark-theme")) {
-        localStorage.setItem("theme", "dark");
+      localStorage.setItem("theme", "dark");
     } else {
-        localStorage.setItem("theme", "light");
+      localStorage.setItem("theme", "light");
     }
-}
-window.onload = function() {
-    if (localStorage.getItem("theme") === "dark") {
-        document.body.classList.add("dark-theme");
-    }
-}
-//
-
-document.addEventListener("DOMContentLoaded", function () {
-  const body = document.body;
-  const zoomInBtn = document.getElementById("zoom-in");
-  const zoomOutBtn = document.getElementById("zoom-out");
-  const zoomResetBtn = document.getElementById("zoom-reset");
-
-  // LocalStorage se saved zoom level get karein, default 100 rakhein
-  let currentZoom = localStorage.getItem("siteZoom") ? parseInt(localStorage.getItem("siteZoom")) : 100;
-  
-  // Page load hone par saved zoom level apply karein
-  body.style.fontSize = currentZoom + "%";
-
-  function applyZoom(zoomLevel) {
-      body.style.fontSize = zoomLevel + "%";
-      localStorage.setItem("siteZoom", zoomLevel); // Browser me save karein
   }
-
-  // Zoom In Function
-  zoomInBtn.addEventListener("click", function () {
-    if (currentZoom < 140) { // Max zoom limit 140%
-      currentZoom += 10;
-      applyZoom(currentZoom);
+  window.onload = function () {
+    if (localStorage.getItem("theme") === "dark") {
+      document.body.classList.add("dark-theme");
     }
-  });
+  }
+  //
 
-  // Zoom Out Function
-  zoomOutBtn.addEventListener("click", function () {
-    if (currentZoom > 80) { // Min zoom limit 80%
-      currentZoom -= 10;
-      applyZoom(currentZoom);
+  document.addEventListener("DOMContentLoaded", function () {
+    const body = document.body;
+    const zoomInBtn = document.getElementById("zoom-in");
+    const zoomOutBtn = document.getElementById("zoom-out");
+    const zoomResetBtn = document.getElementById("zoom-reset");
+
+    // LocalStorage saved zoom level get, default 100
+    let currentZoom = localStorage.getItem("siteZoom") ? parseInt(localStorage.getItem("siteZoom")) : 100;
+
+    // when Page load saved zoom level apply 
+    body.style.fontSize = currentZoom + "%";
+
+    function applyZoom(zoomLevel) {
+      body.style.fontSize = zoomLevel + "%";
+      localStorage.setItem("siteZoom", zoomLevel); // Browser save 
     }
-  });
 
-  // Reset Function
-  zoomResetBtn.addEventListener("click", function () {
-    currentZoom = 100;
-    applyZoom(currentZoom);
+    // Zoom In Function
+    zoomInBtn.addEventListener("click", function () {
+      if (currentZoom < 140) { // Max zoom limit 140%
+        currentZoom += 10;
+        applyZoom(currentZoom);
+      }
+    });
+
+    // Zoom Out Function
+    zoomOutBtn.addEventListener("click", function () {
+      if (currentZoom > 80) { // Min zoom limit 80%
+        currentZoom -= 10;
+        applyZoom(currentZoom);
+      }
+    });
+
+    // Reset Function
+    zoomResetBtn.addEventListener("click", function () {
+      currentZoom = 100;
+      applyZoom(currentZoom);
+    });
   });
-});
-//
+  //
 </script>
+
 </html>

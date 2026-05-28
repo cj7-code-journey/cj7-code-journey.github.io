@@ -7,3 +7,10 @@
     object-fit: cover;
     border: 5px dashed #4b545d
 }
+
+.my-highlight {
+  background-color: rgba(255, 255, 0, 0.739);
+  padding:0 4px;
+  color: black;
+  font-weight: normal; 
+}

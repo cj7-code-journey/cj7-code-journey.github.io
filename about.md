@@ -16,20 +16,43 @@ I enjoy building things from scratch and solving real-world problems. My journey
 
 ### 🎓 Background & Education
 
-- **Coming Soon...** 
+- **Self Taught**
+  - Open Source such as [ source with link]
+  - 2021 - present
+  - <b>Skills</b>
+    - Frontent
+    - Jekyll
+    - comming soon...
 
+- **Bachelor of Computer Science & Engineering**
+  - _Jan Nayak Chaudhary Devi Lal Memorial College of Engineering_
+  - 2022 - 2026\*
+  - _SKILLS_
+    - Engineering Concept & Subject
+    - comming soon...
+
+- **DIPLOMA IN COMPUTER APPLICATION**
+  - _HARTRON SKILL CENTRE_
+  - \*2023 - 2024 [#1 year #Part Time]
+  - _SKILLS_
+    - Basics of Computer Knowledge
+    - <u>Microsoft Office Application</u> hands on practice such as **word, powerpoint, excel, access**{: .my-highlight} etc.
+    - Knowledge of <u>Programming Language</u> such as **c, c++, javascript**{: .my-highlight}.
+    - Make Project on <u>Web development</u> using **HTML5, CSS3, Javascript**{: .my-highlight}.
+    - Successfully cleared the exam with **<u>A</u> grade**{: .my-highlight} scoring <u>213</u> marks out of <u>300</u>
+    - See Certification with link
 
 ### 💻 What I Do
 
-- **Coming Soon...** 
+- **Coming Soon...**
 
 ### 📫 Let's Connect
 
-Whether it's discussing a cool new AI project, web development, or just a casual tech chat, my inbox is always open.
+Whether it's discussing a cool new project, web development, or just a casual tech chat, my inbox is always open.
 
 - **LinkedIn:** [linkedin.com/in/ashok-kumar-in](https://linkedin.com/in/ashok-kumar-in)
 - **GitHub:** [github.com/cj7-code-journey](https://github.com/cj7-code-journey)
 
 ---
 
-_When I'm not coding, you might find me exploring Internet, Workout, Mobile Games and Reading articles_
+<center> <em>When I don't code, I explore the internet, read articles, and work out.</em> </center>
