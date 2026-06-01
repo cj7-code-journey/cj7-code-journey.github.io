@@ -123,5 +123,16 @@ a:hover { text-decoration: underline 2px; }
     font-size: 18px;
     font-weight: bolder;
  }
-  
+  .profile-pic {
+    max-width: 190px;
+     max-height: 200px;
+  }
+ 
+}
+
+@media (max-width: 425px) {
+  .profile-pic {
+     max-width: 125px;
+     max-height: 140px;
+  }
 }
