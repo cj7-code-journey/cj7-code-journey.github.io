@@ -3,9 +3,9 @@ layout: default
 title: About Me
 permalink: /about.html
 ---
+<span style="text-align:right;">Last Update: 24-Jun-2026 02:24 AM</span>
 
 <h1 class="page-title">💾 About Me</h1>
-
 <img class="profile-pic" src="/assets/images/profile-pic.png" alt="Ashok Kumar">
 
 Hi, I'm **Ashok Kumar**, a Frontend developer and tech enthusiast. Welcome to my digital space! 🌱
@@ -20,9 +20,10 @@ I enjoy building things from scratch and solving real-world problems. My journey
   - Open Source such as [ source with link]
   - 2021 - present
   - <b>Skills</b>
-    - Frontent
-    - Jekyll
-    - comming soon...
+    - Frontend: HTML, CSS, JavaScript
+    - Programming: C, C++, JavaScript, Python
+    - Django, Bootstrap, Jekyll
+    - Tools: VS code, CLI, Git, Github, Render, Streamlit, Netlify
 
 - **Bachelor of Computer Science & Engineering**
   - _Jan Nayak Chaudhary Devi Lal Memorial College of Engineering_
@@ -36,10 +37,10 @@ I enjoy building things from scratch and solving real-world problems. My journey
   - \*2023 - 2024 [#1 year #Part Time]
   - _SKILLS_
     - Basics of Computer Knowledge
-    - <u>Microsoft Office Application</u> hands on practice such as **word, powerpoint, excel, access**{: .my-highlight} etc.
-    - Knowledge of <u>Programming Language</u> such as **c, c++, javascript**{: .my-highlight}.
-    - Make Project on <u>Web development</u> using **HTML5, CSS3, Javascript**{: .my-highlight}.
-    - Successfully cleared the exam with **<u>A</u> grade**{: .my-highlight} scoring <u>213</u> marks out of <u>300</u>
+    - <u>Microsoft Office Application</u> hands on practice such as paint, notepad, word, powerpoint, excel, access etc.
+    - Knowledge of <u>Programming Language</u> such as c, c++, javascript.
+    - Make Project on <u>Web development</u> using HTML5, CSS3, Javascript.
+    - Successfully cleared the exam with <u>A</u> grade scoring <u>213</u> marks out of <u>300</u>
     - See Certification with link
 
 ### 💻 What I Do
