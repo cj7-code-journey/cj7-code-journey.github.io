@@ -26,8 +26,8 @@
   description: ""
   img-url: "/assets/images/projects-images/Leads tracker.webp"
   stack: ["#HTML", "#CSS", "#Bootstrap", "#JavaScript","LocalStorage","#Chrome extension developer package"]
-  repo-url: "https://github.com/cj7-code-journey/Restaurant-Management-System"
-  live-url: "https://flavors-feast.onrender.com/"
+  repo-url: ""
+  live-url: ""
   target: "_blank"
 
 - title: "Rock Paper Scissor"
