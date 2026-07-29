@@ -1,7 +1,39 @@
-- title: "🔐 CyberAware wEBSITE"
+- title: "Try Jekyll SSG Blog"
+  description: "This project is a step-by-step tutorial series designed to help beginners build, customize, and deploy a fast, secure, and free static blog using Jekyll and GitHub Pages."
+  img-url: "/assets/images/projects-images/Try-Jekyll.png"
+  stack: ["#HTML", "#CSS", "#Readme", "#Markdown", "YAML", "#Jekyll", "#GitHub Pages"]
+  repo-url: "https://github.com/cj7-code-journey/try_jekyll"
+  live-url: "https://cj7-code-journey.github.io/try_jekyll/"
+  target: "_blank"
+
+- title: "🔐 CyberAware"
   description: "A cybersecurity awareness website designed to educate users about online threats and best practices for staying safe in the digital world."
   img-url: "/assets/images/projects-images/CyberAware_Home.webp"
   stack: ["#HTML", "#CSS", "#Bootstrap", "#JavaScript", "#Responsive Design", "#GitHub Pages"]
   repo-url: "https://github.com/cj7-code-journey/CyberAware"
   live-url: "https://cj7-code-journey.github.io/CyberAware/"
+  target: "_blank"
+
+- title: "Restaurant Management System"
+  description: "This is a restaurant management website built using Django (Python) and SQLite.The project includes features such as a Menu page to display food items, Order page with form submission, About and Feast info pages, Static HTML templates with routing, Admin panel with authentication, SQLite database (default Django DB)."
+  img-url: "/assets/images/projects-images/Flavors Feast.webp"
+  stack: ["#HTML", "#CSS", "#Bootstrap", "#JavaScript", "#Django","Python","SQLite", "#GitHub Pages"]
+  repo-url: "https://github.com/cj7-code-journey/Restaurant-Management-System"
+  live-url: "https://flavors-feast.onrender.com/"
+  target: "_blank"
+
+- title: "Leads Tracker Chrome extension"
+  description: ""
+  img-url: "/assets/images/projects-images/Leads tracker.webp"
+  stack: ["#HTML", "#CSS", "#Bootstrap", "#JavaScript","LocalStorage","#Chrome extension developer package"]
+  repo-url: "https://github.com/cj7-code-journey/Restaurant-Management-System"
+  live-url: "https://flavors-feast.onrender.com/"
+  target: "_blank"
+
+- title: "Rock Paper Scissor"
+  description: "The Console Based Game developed using problem solving skills such as Understanding, Planning, Divide and Conquer, Pseudocode techniques"
+  img-url: "/assets/images/projects-images/Rock_Paper_Scissor.webp"
+  stack: ["#HTML", "#JavaScript","console"]
+  repo-url: "https://github.com/cj7-code-journey/Rock_Paper_Scissors"
+  live-url: "https://cj7-code-journey.github.io/Rock_Paper_Scissors/"
   target: "_blank"
